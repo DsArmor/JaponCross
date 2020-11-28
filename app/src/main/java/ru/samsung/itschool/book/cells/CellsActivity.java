@@ -29,6 +29,7 @@ public class CellsActivity extends Activity implements OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cells);
+
         makeCells();
         generate();
 
